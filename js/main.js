@@ -23,6 +23,7 @@ if (window.outerWidth <= 768) {
     autoplaySpeed: 3000
   });
 } else {
+  $("#navbar-two").remove();
   $(".autoplay").slick({
     slidesToShow: 3,
     slidesToScroll: 1,
@@ -32,7 +33,7 @@ if (window.outerWidth <= 768) {
 }
 
 //Smooth Srolling
-$("#navbar a").on("click", function(event) {
+$("#navbar a, #navbar-two a").on("click", function(event) {
   if (this.hash !== "") {
     event.preventDefault();
 
