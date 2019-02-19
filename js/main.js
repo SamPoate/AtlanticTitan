@@ -15,7 +15,6 @@ $(document).on("scroll", function(e) {
 
 // Deletes last menu item on mobile
 if (window.outerWidth <= 768) {
-  // $("#navbar ul li:last-child").remove();
   $(".autoplay").slick({
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -23,7 +22,6 @@ if (window.outerWidth <= 768) {
     autoplaySpeed: 3000
   });
 } else {
-  // $("#navbar-two").remove();
   $(".autoplay").slick({
     slidesToShow: 3,
     slidesToScroll: 1,
