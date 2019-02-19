@@ -15,6 +15,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  scrollbar-width: none;
 }
 
 ::-webkit-scrollbar {
@@ -38,7 +39,6 @@ a {
   max-width: var(--max-width);
   margin: auto;
   padding: 0 2rem;
-  overflow: hidden;
 }
 
 .py-1 {
@@ -154,7 +154,6 @@ a {
     url("../img/ocean_2.jpg") no-repeat center center/cover;
   height: 91vh;
   color: var(--primary-text-color);
-
 }
 
 #showcase .showcase-content {
