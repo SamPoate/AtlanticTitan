@@ -13,7 +13,7 @@ $(document).on("scroll", function(e) {
   }
 });
 
-// Deletes last menu item on mobile
+// Changes the amount of sponsors shown on desktop and mobile
 if (window.outerWidth <= 768) {
   $(".autoplay").slick({
     slidesToShow: 1,
@@ -46,36 +46,8 @@ $("#navbar a, #navbar-mob a").on("click", function(event) {
   }
 });
 
-// $(".btn").on("click", function(event) {
-//   if (this.hash !== "") {
-//     event.preventDefault();
 
-//     const hash = this.hash;
-
-//     $("html, body").animate(
-//       {
-//         scrollTop: $(hash).offset().top - 65
-//       },
-//       800
-//     );
-//   }
-// });
-
-$({ countNum: 99 }).animate(
-  { countNum: 1000 },
-  {
-    duration: 8000,
-    easing: "linear",
-    step: function() {
-      // What todo on every count
-      console.log(Math.floor(this.countNum));
-    },
-    complete: function() {
-      console.log("finished");
-    }
-  }
-);
-
+//Countdown timer
 // Set the date we're counting down to
 var countDownDate = new Date("Dec 12, 2020 15:00:00").getTime();
 
