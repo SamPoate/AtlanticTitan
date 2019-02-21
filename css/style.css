@@ -241,6 +241,19 @@ a {
   margin-bottom: 2rem;
 }
 
+#about p {
+  text-align: justify;
+}
+
+#bio .content-bio img {
+  width: 40%;
+  margin-bottom: 1rem;
+}
+
+#bio p {
+  padding: 0 1rem;
+}
+
 #about .info {
   border-top: 1px solid #333;
   margin-bottom: 2rem;
@@ -276,11 +289,6 @@ a {
   width: 100%;
 }
 
-#about .content-bio img {
-  width: 40%;
-  margin-bottom: 1rem;
-}
-
 /* Charity Info */
 #sponsors {
   text-align: center;
@@ -289,7 +297,7 @@ a {
 }
 
 #sponsors .border {
-  border-radius: 20px; 
+  border-radius: 20px;
 }
 
 #sponsors .foo {
@@ -331,7 +339,7 @@ a {
 #main-footer .footer-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-areas: 
+  grid-template-areas:
     "footer-text logo"
     "c c";
   text-align: center;
