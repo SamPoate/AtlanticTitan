@@ -280,6 +280,11 @@ a {
   align-self: center;
 }
 
+#challenge .download-link {
+  color: blue;
+  font-weight: bold;
+}
+
 #challenge .map {
   grid-column: 1 / 3;
   margin-top: 1rem;
