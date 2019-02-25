@@ -180,6 +180,10 @@
   margin: 1rem 0;
 }
 
+#challenge .document-download {
+  grid-column: 1;
+}
+
 #challenge .map {
   grid-column: 1;
   margin-top: 1rem;
@@ -188,7 +192,8 @@
 #challenge iframe,
 #charity iframe {
   margin-top: 1rem;
-  width: 100%;
+  grid-column: 1;
+  width: 100% !important;
   height: 200px;
 }
 
