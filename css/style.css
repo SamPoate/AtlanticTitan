@@ -366,10 +366,16 @@ a {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-areas:
-    "footer-text logo"
-    "c c";
+    "footer-form logo"
+    "sm sm"
+    "copy copy";
   text-align: center;
-  grid-gap: 1.5rem;
+  grid-gap: 0.5rem;
+  align-items: center;
+}
+
+#main-footer .footer-form {
+  grid-area: footer-form;
 }
 
 #main-footer .footer-container input[type="email"] {
@@ -388,12 +394,20 @@ a {
   text-align: center;
   margin-top: 1rem;
   column-span: 100%;
-  grid-area: c;
+  grid-area: copy;
 }
 
-#main-footer .logo {
-  display: grid;
-  align-items: center;
+#main-footer .social-media {
+  grid-area: sm;
+}
+
+#main-footer .social-icons {
+  margin: 0.5rem;
+}
+
+#main-footer .social-media a {
+  margin: 0 0.5rem;
+  color: #f3f3f3;
 }
 
 #main-footer .logo img {

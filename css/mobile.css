@@ -11,7 +11,7 @@
 #navbar-mob {
   display: block;
   background-color: #fff;
-  box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
   position: fixed;
   width: 100%;
   z-index: 3;
@@ -42,14 +42,14 @@
   float: left;
   font-size: 1.75rem;
   padding: 10px 20px;
-  text-decoration: none; 
+  text-decoration: none;
   font-weight: bold;
 }
 
 #navbar-mob .menu {
   clear: both;
   max-height: 0;
-  transition: max-height .2s ease-out;
+  transition: max-height 0.2s ease-out;
 }
 
 #navbar-mob .menu-icon {
@@ -65,18 +65,18 @@
   display: block;
   height: 2px;
   position: relative;
-  transition: .2s ease-out;
+  transition: 0.2s ease-out;
   width: 18px;
 }
 
 #navbar-mob .menu-icon .navicon:before,
 #navbar-mob .menu-icon .navicon:after {
   background: #333;
-  content: '';
+  content: "";
   display: block;
   height: 100%;
   position: absolute;
-  transition: all .2s ease-out;
+  transition: all 0.2s ease-out;
   width: 100%;
 }
 
@@ -137,7 +137,7 @@
 }
 
 #showcase .showcase-content img {
-  width: 100%
+  width: 100%;
 }
 
 /* Donate Bar */
@@ -174,7 +174,9 @@
   width: 100%;
 }
 
-#bio h2, #challenge h2, #charity h2 {
+#bio h2,
+#challenge h2,
+#charity h2 {
   margin: 1rem 0;
 }
 
@@ -183,7 +185,8 @@
   margin-top: 1rem;
 }
 
-#challenge iframe, #charity iframe {
+#challenge iframe,
+#charity iframe {
   margin-top: 1rem;
   width: 100%;
   height: 200px;
@@ -206,10 +209,11 @@
 /* Footer */
 #main-footer .footer-container {
   grid-template-columns: repeat(1, 1fr);
-  grid-template-areas: 
-  "footer-text"
-  "logo"
-  "c";
+  grid-template-areas:
+    "footer-form"
+    "logo"
+    "sm"
+    "copy";
 }
 
 #main-footer .footer-container input[type="email"] {
@@ -221,9 +225,9 @@
 }
 
 #main-footer .footer-text {
-    text-align: center;
+  text-align: center;
 }
 
 #main-footer .footer-text h3 {
-    margin-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
 }
