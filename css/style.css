@@ -236,19 +236,6 @@ a {
   color: #646464;
 }
 
-/* #stats .info {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-} */
-
-/* #stats .left {
-  margin-right: 10rem;
-}
-
-#stats .right {
-  margin-left: 10rem;
-} */
-
 /* About */
 
 #about .container {
@@ -263,6 +250,24 @@ a {
 #bio .content-bio img {
   width: 40%;
   margin-bottom: 1rem;
+}
+
+#bio .content-bio img:hover {
+  transition: all 0.5s;
+  opacity: 0;
+}
+
+#bio .content-bio iframe {
+  position: relative;
+  width: 95%;
+  height: 410px;
+  z-index: 0;
+  opacity: 1;
+}
+
+#bio .content-bio iframe:hover {
+  transition: all 0.5s;
+  opacity: 1;
 }
 
 #bio p {
