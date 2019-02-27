@@ -109,6 +109,7 @@ a {
 
 .btn:hover {
   background: darkred;
+  color: var(--light-color) !important;
 }
 
 .btn-secondary:hover {
@@ -375,14 +376,26 @@ a {
 }
 
 #main-footer .footer-form {
+  display: flex;
+  flex-direction: column;
   grid-area: footer-form;
 }
 
 #main-footer .footer-container input[type="email"] {
-  width: 50%;
-  text-align: center;
+  font-family: "Nanum+Gothic", sans-serif;
+  width: 55%;
   padding: 0.5rem;
   margin: 1rem 0;
+  border-radius: 5px;
+}
+
+#main-footer .footer-container textarea {
+  font-family: "Nanum+Gothic", sans-serif;
+  width: 80%;
+  height: 10rem;
+  padding: 0.25rem 0 2rem 0.25rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
 }
 
 #main-footer .footer-container input[type="submit"] {
