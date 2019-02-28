@@ -63,7 +63,19 @@ a {
 
 .card {
   background: #444;
+  color: var(--primary-text-color);
   padding: 2rem;
+  margin: 1rem;
+  border-radius: 5px;
+}
+
+.card h2 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.card p {
+  text-indent: 1.5rem;
 }
 
 .lead {
@@ -431,3 +443,21 @@ a {
 #main-footer .logo img {
   width: 100%;
 }
+
+/* Blog Page */
+
+/* Showcase */
+#blog-showcase {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../img/rowing_GIF.gif") no-repeat center center/cover;
+  background-position: top;
+  height: 70vh;
+  color: var(--primary-text-color);
+}
+
+#blog-showcase .lead {
+  padding-top: 25vh;
+  text-align: center;
+}
+
+/* Blog posts */
