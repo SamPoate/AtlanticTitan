@@ -63,7 +63,19 @@ a {
 
 .card {
   background: #444;
+  color: var(--primary-text-color);
   padding: 2rem;
+  margin: 1rem;
+  border-radius: 5px;
+}
+
+.card h2 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.card p {
+  text-indent: 1.5rem;
 }
 
 .lead {
@@ -430,4 +442,46 @@ a {
 
 #main-footer .logo img {
   width: 100%;
+}
+
+/* Blog Page */
+
+/* Showcase */
+#blog-showcase {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../img/rowing_GIF.gif") no-repeat center center/cover;
+  background-position: top;
+  height: 70vh;
+  color: var(--primary-text-color);
+}
+
+#blog-showcase .lead {
+  padding-top: 25vh;
+  text-align: center;
+}
+
+/* Blog posts */
+
+#blog-posts .container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr)
+}
+
+#blog-posts .primary-post {
+  background: rgb(98, 98, 238);
+  grid-column: 1 / 3;
+}
+
+#blog-posts .spacer {
+  background: #333;
+  color: #fff;
+  font-size: 1.25rem;
+  text-decoration: underline;
+  text-align: center;
+  grid-column: 1 / 3;
+  padding: 1rem 0;
+}
+
+#blog-posts .secondary-post {
+  background: lightsalmon;
 }
