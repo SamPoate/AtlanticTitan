@@ -191,6 +191,7 @@
 
 #bio iframe {
   height: 230px !important;
+  margin-bottom: 1rem;
 }
 
 #challenge iframe,
