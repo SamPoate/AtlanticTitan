@@ -457,7 +457,7 @@ a {
   width: 100%;
 }
 
-/* Blog Page */
+/* *** Blog Page *** */
 
 /* Showcase */
 #blog-showcase {
@@ -482,7 +482,7 @@ a {
 
 #blog-posts .blog-container {
   display: grid;
-  /* grid-template-columns: repeat(4, 1fr); */
+  grid-template-columns: repeat(4, 1fr);
 }
 
 #blog-posts p {
@@ -509,7 +509,7 @@ a {
 
 /* Right Side Twitter Feed */
 
-#blog-posts .twitter {
+/* #blog-posts .twitter {
   top: 70vh;
   width: 24.5rem;
   background: #323232;
@@ -522,7 +522,7 @@ a {
   position: relative !important;
   margin: 1rem 0 1rem 0 !important;
   width: 22rem !important;
-}
+} */
 
 /* Primary Blog */
 

@@ -248,3 +248,44 @@
 #main-footer .btn {
   margin-bottom: 0.3rem;
 }
+
+/* Blog Page */
+
+#blog-showcase .lead {
+  margin: 0 0.75rem;
+  font-size: 1.75rem;
+}
+
+#blog-posts .blog-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+#blog-posts .bio {
+  grid-column: 1;
+  margin: 1rem;
+  padding: 1rem;
+  height: initial;
+}
+
+#blog-posts .bio img {
+  width: 85%;
+}
+
+#blog-posts .bio h2 {
+  font-size: 2rem;
+}
+
+#blog-posts .four-by-four {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+#blog-posts .primary-header {
+  grid-column: 1;
+  font-size: 2.25rem;
+}
+
+#blog-posts .primary-post {
+  grid-column: 1;
+}
