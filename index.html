@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="author" content="Sam Poate" />
+    <meta
+      name="description"
+      content="Rob Hamilton is rowing solo across the Atlantic in 2020. He will cover 3,000 miles in 90 days or less."
+    />
+    <meta name="keywords" content="atlantic, titan, Rob, Hamilton, Talisker, whisky, challenge, 2020, rowing">
     <link rel="icon" href="/img/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="css/style.css" />
     <link
@@ -25,6 +31,7 @@
     <title>Rob Hamilton | Atlantic Titan</title>
   </head>
   <body>
+    <!-- Desktop Nav -->
     <nav id="navbar">
       <h1 class="logo text-primary">
         <a href="#showcase">ATLANTIC TITAN</a>
@@ -35,7 +42,38 @@
         <li><a href="#challenge">The Challenge</a></li>
         <li><a href="#charity">The Charity</a></li>
         <li><a href="#main-footer">Contact</a></li>
-        <li><a href="#main-footer" class="highlight">DONATE</a></li>
+        <li>
+          <a
+            href="https://robhamilton.paperform.co"
+            class="highlight"
+            target="_blank"
+            >DONATE</a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Mobile Nav -->
+    <nav id="navbar-mob">
+      <a href="#showcase" class="logo-mob">ATLANTIC TITAN</a>
+      <input class="menu-btn" type="checkbox" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn"
+        ><span class="navicon"></span
+      ></label>
+      <ul class="menu">
+        <li><a href="#showcase">Home</a></li>
+        <li><a href="#about">The Man</a></li>
+        <li><a href="#challenge">The Challenge</a></li>
+        <li><a href="#charity">The Charity</a></li>
+        <li><a href="#main-footer">Contact</a></li>
+        <li>
+          <a
+            href="https://robhamilton.paperform.co"
+            class="highlight"
+            target="_blank"
+            >DONATE</a
+          >
+        </li>
       </ul>
     </nav>
 
@@ -50,7 +88,12 @@
     </header>
 
     <section id="donate-bar">
-      <a href="#" class="btn-secondary btn-donate">Donate Here!</a>
+      <a
+        href="https://robhamilton.paperform.co"
+        class="btn-secondary btn-donate"
+        target="_blank"
+        >Donate Here!</a
+      >
     </section>
 
     <section id="stats">
@@ -59,7 +102,7 @@
           <i class="fas fa-ruler-horizontal fa-3x"></i>
           <h3>3,000 Miles</h3>
         </div>
-        <div class="info double-top">
+        <div class="info">
           <i class="fas fa-toilet-paper fa-3x"></i>
           <h3>800 Sheets Of Toilet Paper</h3>
         </div>
@@ -67,11 +110,11 @@
           <i class="fas fa-clock fa-3x"></i>
           <h3>90 Days</h3>
         </div>
-        <div class="info double-bottom-left">
+        <div class="info">
           <i class="fas fa-water fa-3x"></i>
           <h3>1.5 Million Oar Strokes</h3>
         </div>
-        <div class="info double-bottom-right">
+        <div class="info double">
           <i class="fas fa-child fa-3x"></i>
           <h3>1 Man</h3>
         </div>
@@ -121,11 +164,18 @@
 
     <section id="about">
       <div class="container">
-        <div class="info">
+        <div id="bio" class="info">
           <h2>The Man</h2>
           <div class="content-bio">
             <div class="picture">
-              <img src="/img/rob.jpg" alt="Rob Hamilton Picture" />
+              <!-- <img src="/img/rob.jpg" alt="Rob Hamilton Picture" /> -->
+            </div>
+            <div class="promo-video">
+              <iframe
+                src="https://youtube.com/embed/LMaU5X5crU4"
+                frameborder="0"
+                allowfullscreen
+              ></iframe>
             </div>
             <div class="text">
               <p>
@@ -194,6 +244,13 @@
               allowfullscreen
             ></iframe>
 
+            <a
+              class="document-download btn-tertiary"
+              href="/Sponsor Document_HQ.pdf"
+              download
+              >Download a Sponsorship Document</a
+            >
+
             <div class="map">
               <img src="/img/race_distance.jpg" alt="Race Distance" />
             </div>
@@ -243,19 +300,45 @@
     <!-- Footer -->
     <footer id="main-footer" class="py-2">
       <div class="container footer-container">
-        <div class="footer-text">
+        <div class="footer-form">
           <h3>Contact Me</h3>
           <form name="contact" method="POST" data-netlify="true">
-            <input type="email" name="email" placeholder="Enter Email" />
-            <input type="submit" value="Subscribe" class="btn btn-primary" />
+            <input type="email" name="email" placeholder="Enter Email..." />
+            <textarea
+              type="textarea"
+              name="message"
+              placeholder="Your Message..."
+            ></textarea>
+            <input type="submit" value="Send" class="btn btn-primary" />
           </form>
+        </div>
+        <div class="social-media">
+          <div class="social-icons">
+            <a href="https://www.facebook.com/Atlantictitan/" target="_blank"
+              ><i class="fab fa-facebook fa-2x"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/robhamilton_adventures/"
+              target="_blank"
+              ><i class="fab fa-instagram fa-2x"></i
+            ></a>
+            <a
+              href="https://www.youtube.com/channel/UCy4MBau9XHYan_wznpLS_Ow"
+              target="_blank"
+              ><i class="fab fa-youtube fa-2x"></i
+            ></a>
+          </div>
         </div>
         <div class="logo">
           <a
             href="https://www.taliskerwhiskyatlanticchallenge.com"
             target="_blank"
           >
-            <img src="/img/race_logo.jpg" alt="Atlantic Row Logo"
+            <img src="/img/race_logo.jpg" alt="Atlantic Row Logo"/>
+            <img
+              src="/img/race_logo_2.png"
+              alt="Atlantic Row Logo"
+              class="logo-2"
           /></a>
         </div>
         <div class="copy">
