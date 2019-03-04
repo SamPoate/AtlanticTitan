@@ -13,18 +13,6 @@ $(document).on("scroll", function(e) {
   }
 });
 
-$(document).on("scroll", function(e) { 
-  var scrollValue = window.scrollY;
-
-  // if (scrollValue > 640) {
-  //   $("#blog-posts .bio").css("top", "50px");
-  //   $("#blog-posts .bio").css("position", "fixed");
-  // } else {
-  //   $("#blog-posts .bio").css("top", "");
-  //   $("#blog-posts .bio").css("position", "absolute");
-  // }
-});
-
 // Changes the amount of sponsors shown on desktop and mobile
 if (window.outerWidth <= 768) {
   $(".autoplay").slick({
