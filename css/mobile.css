@@ -137,7 +137,8 @@
 }
 
 #showcase .showcase-content img {
-  width: 100%;
+  margin-top: 2rem;
+  width: 80%;
 }
 
 /* Donate Bar */
@@ -191,6 +192,7 @@
 
 #bio iframe {
   height: 230px !important;
+  margin-bottom: 1rem;
 }
 
 #challenge iframe,
