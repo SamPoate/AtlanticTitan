@@ -93,7 +93,7 @@
 }
 
 #navbar-mob .menu-btn:checked ~ .menu {
-  max-height: 400px;
+  max-height: 500px;
 }
 
 #navbar-mob .menu-btn:checked ~ .menu-icon .navicon {
