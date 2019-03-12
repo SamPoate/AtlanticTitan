@@ -4,7 +4,7 @@
   --primary-text-color: #fff;
   --secondary-text-color: #333;
   --primary-color: #8b0000;
-  --secondary-color: #f99500;
+  --secondary-color: #3fa9f0;
   --light-color: #f3f3f3;
   --dark-color: #333;
   --lightgray-color: #646464;
@@ -125,7 +125,7 @@ a {
 .btn-tertiary {
   display: inline-block;
   color: #f3f3f3;
-  background: #3fa9f0;
+  background: var(--secondary-color);
   font-size: 1.2rem;
   padding: 0.5rem 2rem;
   border: 2px solid;
@@ -138,7 +138,7 @@ a {
 }
 
 .btn-secondary:hover {
-  background: #3fa9f0;
+  background: var(--secondary-color);
 }
 
 .btn-tertiary:hover {
@@ -348,28 +348,30 @@ a {
 
 /* Charity Info */
 #sponsors {
+  width: initial;
   text-align: center;
-  margin: 3rem;
+  padding: 3rem;
   color: #000;
+  background: var(--white-color);
 }
 
 #sponsors .border {
   border-radius: 20px;
 }
 
-#sponsors .foo {
+#sponsors .background {
   background: #fff;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 #sponsors .sponsor-title {
   font-size: 1.25rem;
-  background: darkred;
-  color: var(--primary-text-color);
+  background: var(--secondary-color);
+  color: #fff;
   padding: 0.5rem 0;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 #sponsors button {

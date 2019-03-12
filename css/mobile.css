@@ -208,7 +208,7 @@
 }
 
 /* Sponsors */
-#sponsors .foo {
+#sponsors .background {
   grid-template-columns: repeat(1, 1fr);
 }
 
