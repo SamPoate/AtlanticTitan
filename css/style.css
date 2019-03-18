@@ -5,7 +5,7 @@
   --secondary-text-color: #333;
   --primary-color: #8b0000;
   --secondary-color: #f99500;
-  --tertiary-color: #006994;
+  --tertiary-color: #027dc1;
   --light-color: #f3f3f3;
   --dark-color: #333;
   --lightgray-color: #646464;
@@ -581,7 +581,7 @@ a {
 #blog-posts .bio {
   top: 70vh;
   height: 30rem;
-  background: #323232;
+  background: #b4a57c; /* Still deciding on a colour */
   text-align: center;
   margin: 1rem 2rem;
   border-radius: 5px;

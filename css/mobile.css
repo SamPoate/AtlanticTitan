@@ -286,6 +286,7 @@
 #blog-posts .primary-header {
   grid-column: 1;
   font-size: 2.25rem;
+  text-align: center;
 }
 
 #blog-posts .primary-post {
