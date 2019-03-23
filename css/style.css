@@ -478,11 +478,13 @@ a {
 
 /* Sponsor Timeline */
 #sponsor-timeline .container {
+  display: flex;
+  flex-direction: column;
   background: var(--tertiary-color);
   color: var(--primary-text-color);
   padding: 1rem;
-  margin-bottom: 1rem;
-  border-radius: 3px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
 }
 
 #sponsor-timeline .container h1 {
@@ -490,12 +492,17 @@ a {
   font-size: 2rem;
 }
 
+#sponsor-timeline .container a {
+  margin: 0.5rem 0;
+}
+
 #sponsor-timeline .timeline-items {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: flex-end;
   text-align: center;
-  margin: 1rem 1rem;
+  margin-bottom: 0.5rem;
 }
 
 #sponsor-timeline .meter {
