@@ -494,6 +494,7 @@ a {
 
 #sponsor-timeline .container a {
   margin: 0.5rem 0;
+  background: rgb(43,194,83);
 }
 
 #sponsor-timeline .timeline-items {
