@@ -73,6 +73,11 @@ a {
     justify-content: center;
 }
 
+.highlight-link {
+    color: var(--tertiary-color) !important;
+    text-decoration: underline;
+}
+
 .bg-light-gray {
     background: var(--lightgray-color);
 }
