@@ -72,7 +72,7 @@
 #navbar-mob .menu-icon .navicon:before,
 #navbar-mob .menu-icon .navicon:after {
   background: #333;
-  content: "";
+  content: '';
   display: block;
   height: 100%;
   position: absolute;
@@ -113,7 +113,7 @@
   top: 0;
 }
 
-@media (min-width: 48em) {
+@media (min-width: 769px) {
   #navbar-mob li {
     float: left;
   }
@@ -221,13 +221,13 @@
 #main-footer .footer-container {
   grid-template-columns: repeat(1, 1fr);
   grid-template-areas:
-    "footer-form"
-    "logo"
-    "sm"
-    "copy";
+    'footer-form'
+    'logo'
+    'sm'
+    'copy';
 }
 
-#main-footer .footer-container input[type="email"] {
+#main-footer .footer-container input[type='email'] {
   width: 100%;
 }
 
@@ -235,7 +235,7 @@
   width: 100%;
 }
 
-#main-footer .footer-container input[type="submit"] {
+#main-footer .footer-container input[type='submit'] {
   width: 100%;
 }
 

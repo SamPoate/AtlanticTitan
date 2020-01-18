@@ -1,564 +1,510 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <meta name="author" content="Sam Poate" />
-        <meta
-            name="description"
-            content="Rob Hamilton is rowing solo across the Atlantic in 2020. He will cover 3,000 miles in 90 days or less."
-        />
-        <meta
-            name="keywords"
-            content="atlantic, titan, Rob, Hamilton, Talisker, whisky, challenge, 2020, rowing"
-        />
-        <link rel="icon" href="/img/favicon.ico" type="image/x-icon" />
-        <link rel="stylesheet" href="css/style.css" />
-        <link
-            rel="stylesheet"
-            media="screen and (max-width: 768px)"
-            href="css/mobile.css"
-        />
-        <link
-            rel="stylesheet"
-            href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
-            integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
-            crossorigin="anonymous"
-        />
-        <link
-            rel="stylesheet"
-            type="text/css"
-            href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
-        />
-        <title>Rob Hamilton | Atlantic Titan</title>
-    </head>
-    <body>
-        <!-- Desktop Nav -->
-        <nav id="navbar">
-            <h1 class="logo text-primary">
-                <a href="#showcase">ATLANTIC TITAN</a>
-            </h1>
-            <ul>
-                <li><a href="#showcase">Home</a></li>
-                <li><a href="#about">The Story</a></li>
-                <li><a href="#challenge">The Challenge</a></li>
-                <li><a href="#charity">The Charities</a></li>
-                <li><a href="#main-footer">Contact</a></li>
-                <li>
-                    <a
-                        href="https://robhamilton.paperform.co"
-                        class="highlight"
-                        target="_blank"
-                        >DONATE</a
-                    >
-                </li>
-            </ul>
-        </nav>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="author" content="Sam Poate" />
+    <meta
+      name="description"
+      content="Rob Hamilton is rowing solo across the Atlantic in 2020. He will cover 3,000 miles in 90 days or less."
+    />
+    <meta
+      name="keywords"
+      content="atlantic, titan, Rob, Hamilton, Talisker, whisky, challenge, 2020, rowing"
+    />
+    <link rel="icon" href="/img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 768px)"
+      href="css/mobile.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <title>Rob Hamilton | Atlantic Titan</title>
+  </head>
+  <body>
+    <!-- Desktop Nav -->
+    <nav id="navbar">
+      <h1 class="logo text-primary">
+        <a href="#showcase">ATLANTIC TITAN</a>
+      </h1>
+      <ul>
+        <li><a href="#showcase">Home</a></li>
+        <li><a href="#about">The Story</a></li>
+        <li><a href="#challenge">The Challenge</a></li>
+        <li><a href="#charity">The Charities</a></li>
+        <li><a href="#main-footer">Contact</a></li>
+        <li>
+          <a
+            href="https://www.justgiving.com/crowdfunding/atlantic-titan"
+            class="highlight"
+            target="_blank"
+            >DONATE</a
+          >
+        </li>
+      </ul>
+    </nav>
 
-        <!-- Mobile Nav -->
-        <nav id="navbar-mob">
-            <a href="#showcase" class="logo-mob">ATLANTIC TITAN</a>
-            <input class="menu-btn" type="checkbox" id="menu-btn" />
-            <label class="menu-icon" for="menu-btn"
-                ><span class="navicon"></span
-            ></label>
-            <ul class="menu">
-                <li><a href="#showcase">Home</a></li>
-                <li><a href="#about">The Story</a></li>
-                <li><a href="#challenge">The Challenge</a></li>
-                <li><a href="#charity">The Charities</a></li>
-                <li><a href="#main-footer">Contact</a></li>
-                <li>
-                    <a
-                        href="https://robhamilton.paperform.co"
-                        class="highlight"
-                        target="_blank"
-                        >DONATE</a
-                    >
-                </li>
-            </ul>
-        </nav>
+    <!-- Mobile Nav -->
+    <nav id="navbar-mob">
+      <a href="#showcase" class="logo-mob">ATLANTIC TITAN</a>
+      <input class="menu-btn" type="checkbox" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn"
+        ><span class="navicon"></span
+      ></label>
+      <ul class="menu">
+        <li><a href="#showcase">Home</a></li>
+        <li><a href="#about">The Story</a></li>
+        <li><a href="#challenge">The Challenge</a></li>
+        <li><a href="#charity">The Charities</a></li>
+        <li><a href="#main-footer">Contact</a></li>
+        <li>
+          <a
+            href="https://www.justgiving.com/crowdfunding/atlantic-titan"
+            class="highlight"
+            target="_blank"
+            >DONATE</a
+          >
+        </li>
+      </ul>
+    </nav>
 
-        <!-- Header: Showcase -->
-        <header id="showcase">
-            <div class="showcase-content">
-                <img src="/img/AT_Logo_RGB-01.png" alt="Logo" />
-                <p class="lead">
-                    In 2020, I will solo row 3,000 miles across the Atlantic.
-                </p>
-            </div>
-        </header>
+    <!-- Header: Showcase -->
+    <header id="showcase">
+      <div class="showcase-content">
+        <img src="/img/AT_Logo_RGB-01.png" alt="Logo" />
+        <p class="lead">
+          In 2020, I will solo row 3,000 miles across the Atlantic.
+        </p>
+      </div>
+    </header>
 
-        <section id="donate-bar">
-            <a
-                href="https://robhamilton.paperform.co"
-                class="btn-secondary btn-donate"
-                target="_blank"
-                >Donate Here!</a
-            >
-        </section>
+    <section id="donate-bar">
+      <a
+        href="https://www.justgiving.com/crowdfunding/atlantic-titan"
+        class="btn-secondary btn-donate"
+        target="_blank"
+        >Donate Here!</a
+      >
+    </section>
 
-        <section id="stats">
-            <div class="container stat">
-                <div class="info">
-                    <i class="fas fa-ruler-horizontal fa-3x"></i>
-                    <h3>3,000 Miles</h3>
-                </div>
-                <div class="info">
-                    <i class="fas fa-toilet-paper fa-3x"></i>
-                    <h3>800 Sheets Of Toilet Paper</h3>
-                </div>
-                <div class="info">
-                    <i class="fas fa-clock fa-3x"></i>
-                    <h3>90 Days</h3>
-                </div>
-                <div class="info">
-                    <i class="fas fa-water fa-3x"></i>
-                    <h3>1.5 Million Oar Strokes</h3>
-                </div>
-                <div class="info double">
-                    <i class="fas fa-child fa-3x"></i>
-                    <h3>1 Man</h3>
-                </div>
-            </div>
-        </section>
+    <section id="stats">
+      <div class="container stat">
+        <div class="info">
+          <i class="fas fa-ruler-horizontal fa-3x"></i>
+          <h3>3,000 Miles</h3>
+        </div>
+        <div class="info">
+          <i class="fas fa-toilet-paper fa-3x"></i>
+          <h3>800 Sheets Of Toilet Paper</h3>
+        </div>
+        <div class="info">
+          <i class="fas fa-clock fa-3x"></i>
+          <h3>90 Days</h3>
+        </div>
+        <div class="info">
+          <i class="fas fa-water fa-3x"></i>
+          <h3>1.5 Million Oar Strokes</h3>
+        </div>
+        <div class="info double">
+          <i class="fas fa-child fa-3x"></i>
+          <h3>1 Man</h3>
+        </div>
+      </div>
+    </section>
 
-        <section id="countdown">
-            <div class="countdown-container">
-                <p class="countdown-title">Countdown to race:</p>
-                <p id="counter"></p>
-            </div>
-        </section>
+    <section id="countdown">
+      <div class="countdown-container">
+        <p class="countdown-title">Countdown to race:</p>
+        <p id="counter"></p>
+      </div>
+    </section>
 
-        <section id="sponsors">
-            <div class="container">
-                <div class="sponsor-title">
-                    <h1>Sponsors</h1>
-                </div>
-                <div class="autoplay foo">
-                    <div class="info">
-                        <h2>CRP</h2>
-                        <a
-                            href="https://www.collateralrepairproject.org/"
-                            target="_blank"
-                        >
-                            <img src="/img/CRP_1.jpg" alt="CRP"
-                        /></a>
-                    </div>
-                    <div class="info">
-                        <h2>Invictus Games</h2>
-                        <a
-                            href="https://invictusgamesfoundation.org/"
-                            target="_blank"
-                        >
-                            <img src="/img/invictus.png" alt="Invictus Games"
-                        /></a>
-                    </div>
-                    <div class="info">
-                        <h2>Dynafit</h2>
-                        <a href="https://www.dynafit.com/" target="_blank">
-                            <img src="/img/dynafit.png" alt="dynafit" />
-                        </a>
-                    </div>
-                    <div class="info">
-                        <h2>Fourth Element</h2>
-                        <a href="https://fourthelement.com/" target="_blank">
-                            <img
-                                src="/img/fourth-element.jpg"
-                                alt="Fourth Element"
-                        /></a>
-                    </div>
-                    <div class="info">
-                        <h2>Sam Poate</h2>
-                        <a href="https://www.samuelpoate.com" target="_blank">
-                            <img src="/img/sp.png" alt="RH"
-                        /></a>
-                    </div>
-                    <div class="info">
-                        <h2>Burlingham London</h2>
-                        <a href="https://burlinghamlondon.com/" target="_blank">
-                            <img src="/img/watch_logo.png" alt="Burlingham"
-                        /></a>
-                    </div>
-                    <div class="info">
-                        <h2>Athlete Movement</h2>
-                        <a href="https://athletemovement.com/" target="_blank">
-                            <img
-                                src="/img/athelete-movement-logo.jpg"
-                                alt="Athlete Movement"
-                        /></a>
-                    </div>
-                    <div class="info">
-                        <h2>SOAS London</h2>
-                        <a href="https://www.soas.ac.uk/" target="_blank">
-                            <img src="/img/soas-logo.jpg" alt="SOAS London"
-                        /></a>
-                    </div>
-                </div>
-            </div>
-        </section>
+    <section id="sponsors">
+      <div class="container">
+        <div class="sponsor-title">
+          <h1>Sponsors</h1>
+        </div>
+        <div class="autoplay foo">
+          <div class="info">
+            <h2>CRP</h2>
+            <a href="https://www.collateralrepairproject.org/" target="_blank">
+              <img src="/img/CRP_1.jpg" alt="CRP"
+            /></a>
+          </div>
+          <div class="info">
+            <h2>Invictus Games</h2>
+            <a href="https://invictusgamesfoundation.org/" target="_blank">
+              <img src="/img/invictus.png" alt="Invictus Games"
+            /></a>
+          </div>
+          <div class="info">
+            <h2>Dynafit</h2>
+            <a href="https://www.dynafit.com/" target="_blank">
+              <img src="/img/dynafit.png" alt="dynafit" />
+            </a>
+          </div>
+          <div class="info">
+            <h2>Fourth Element</h2>
+            <a href="https://fourthelement.com/" target="_blank">
+              <img src="/img/fourth-element.jpg" alt="Fourth Element"
+            /></a>
+          </div>
+          <div class="info">
+            <h2>Sam Poate</h2>
+            <a href="https://www.samuelpoate.com" target="_blank">
+              <img src="/img/sp.png" alt="RH"
+            /></a>
+          </div>
+          <div class="info">
+            <h2>Burlingham London</h2>
+            <a href="https://burlinghamlondon.com/" target="_blank">
+              <img src="/img/watch_logo.png" alt="Burlingham"
+            /></a>
+          </div>
+          <div class="info">
+            <h2>Athlete Movement</h2>
+            <a href="https://athletemovement.com/" target="_blank">
+              <img src="/img/athelete-movement-logo.jpg" alt="Athlete Movement"
+            /></a>
+          </div>
+          <div class="info">
+            <h2>SOAS London</h2>
+            <a href="https://www.soas.ac.uk/" target="_blank">
+              <img src="/img/soas-logo.jpg" alt="SOAS London"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </section>
 
-        <section id="about">
-            <div class="container">
-                <div id="bio" class="info">
-                    <h2>The Story So Far</h2>
-                    <div class="content-bio">
-                        <div class="text">
-                            <p>
-                                Atlantic Titan is made up of just one person,
-                                29-year-old Rob Hamilton. Rob has always enjoyed
-                                pushing himself to find his limit. He has
-                                completed two ultra-mountain marathons, is a
-                                climber, a technical diver, a powerlifter and
-                                has travelled to 48 countries so far, with a
-                                particular fascination for the Middle East.
-                                <br />
-                                <br />
-                            </p>
-                            <div class="promo-video">
-                                <iframe
-                                    width="98%"
-                                    height="410"
-                                    src="https://youtube.com/embed/LMaU5X5crU4"
-                                    frameborder="0"
-                                    allowfullscreen
-                                ></iframe>
-                            </div>
-                            <p>
-                                <br />
-                                In 2016 Rob achieved a lifelong dream when he
-                                started his training to become an officer in the
-                                British Army at the Royal Military Academy
-                                Sandhurst. However, shortly after starting his
-                                training he injured his knee and was medically
-                                discharged. The diagnosis – avascular necrosis
-                                resulting in a partially dead knee, three months
-                                on crutches and no more long-distance running.
-                                <br />
-                                <br />
-                            </p>
-                            <!-- <div class="picture">
+    <section id="about">
+      <div class="container">
+        <div id="bio" class="info">
+          <h2>The Story So Far</h2>
+          <div class="content-bio">
+            <div class="text">
+              <p>
+                Atlantic Titan is made up of just one person, 29-year-old Rob
+                Hamilton. Rob has always enjoyed pushing himself to find his
+                limit. He has completed two ultra-mountain marathons, is a
+                climber, a technical diver, a powerlifter and has travelled to
+                48 countries so far, with a particular fascination for the
+                Middle East.
+                <br />
+                <br />
+              </p>
+              <div class="promo-video">
+                <iframe
+                  width="98%"
+                  height="410"
+                  src="https://youtube.com/embed/LMaU5X5crU4"
+                  frameborder="0"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <p>
+                <br />
+                In 2016 Rob achieved a lifelong dream when he started his
+                training to become an officer in the British Army at the Royal
+                Military Academy Sandhurst. However, shortly after starting his
+                training he injured his knee and was medically discharged. The
+                diagnosis – avascular necrosis resulting in a partially dead
+                knee, three months on crutches and no more long-distance
+                running.
+                <br />
+                <br />
+              </p>
+              <!-- <div class="picture">
                                 <img
                                     src="/img/rob.jpg"
                                     alt="Rob Hamilton Picture"
                                 />
                             </div> -->
-                            <p>
-                                This was certainly a shock to his system and
-                                while he had always wanted to take part in the
-                                Talisker Whisky Atlantic Challenge, this
-                                unfortunate turn of events meant he is now more
-                                determined than ever to not only complete the
-                                crossing but win the solo category. With the
-                                goal of proving to himself and others that
-                                injuries and life changing events need not be a
-                                barrier for achieving extraordinary things.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div id="challenge" class="info challenge">
-                    <h2>The Challenge</h2>
-                    <div class="content-v-split">
-                        <p>
-                            You would be hard pressed to find a better way of
-                            achieving this than to row across the Atlantic. The
-                            Talisker Whisky Atlantic Challenge is often touted
-                            as the world’s toughest race and the premier event
-                            in ocean rowing, and with good reason. The 3000-mile
-                            race starts every December in La Gomera, the Canary
-                            Islands and finishes up to three months later in
-                            Antigua. Rob will be totally unsupported, carrying
-                            everything he needs for the crossing on his boat and
-                            won’t leave his boat until he reaches Antigua.
-                            <br />
-                            <br />
-                        </p>
-                        <iframe
-                            width="98%"
-                            height="410"
-                            src="https://youtube.com/embed/uLQS6q6u4j4"
-                            frameborder="0"
-                            allowfullscreen
-                        ></iframe>
-                        <p>
-                            <br />
-                            Rowing across the Atlantic presents many challenges,
-                            including -
-                            <br />
-                            <br />
-                            <strong>Sleep Deprivation</strong> – Rowing for up
-                            to 18 hours a day is exhausting, giving very little
-                            time to sleep, coupled with the fact that sleeping
-                            in an ocean rowing boat is often quite bumpy. Ocean
-                            rowers frequently report hallucinations.
-                            <br />
-                            <br />
-                            <strong>Salt Sores</strong> – Salt from the ocean
-                            gets everywhere, all over your skin and clothes.
-                            With nowhere to wash the salt can often lead to
-                            painful sores which have the potential to lead to
-                            infection.
-                            <br />
-                            <br />
-                            <strong>Dehydration</strong> – With temperatures in
-                            excess of 30 degrees, no shade on the boat and
-                            rowing all day, every day, dehydration is a real
-                            risk. The onboard watermaker is therefore a vital
-                            piece of equipment.
-                            <br />
-                            <br />
-                            <strong>Waves</strong> – Waves in the Atlantic can
-                            be big, really big, up to 30ft (9 metres) high, in
-                            fact. This may be ok in a larger ocean-going vessel
-                            but in a small 24ft (7.3 metres) rowing boat it can
-                            lead to capsizes.
-                            <br />
-                            <br />
-                            <strong>Food</strong> – Spending all this time
-                            rowing burns a huge number of calories,
-                            approximately 8000 a day. However, rowers typically
-                            only manage to eat 6000 calories a day. Therefore,
-                            Rob will likely lose between 10kg and 15kg on the
-                            crossing. This may be exacerbated by bouts of sea
-                            sickness which drain energy and motivation making it
-                            all that much harder.
-                            <br />
-                            <br />
-                            Overall, the mental challenge of rowing across an
-                            ocean outweighs the physical. There are times during
-                            the race where the water will be 5km deep and you
-                            will be closer to someone in space than on land.
-                            Indeed, more people have been into space than have
-                            rowed across an ocean, let alone completed a solo
-                            crossing.
-                        </p>
-                        <div class="map">
-                            <img
-                                src="/img/race_distance.jpg"
-                                alt="Race Distance"
-                            />
-                        </div>
-                        <p>
-                            Just making it to the start line is an impressive
-                            feat, with £110,000 required to cover race costs
-                            including the build and purchase of the boat from
-                            Rannoch Adventure, all the navigation, emergency and
-                            communications equipment as well as shipping costs,
-                            the race entrance fee and mandatory courses. Rob is
-                            actively searching for sponsors to join him on this
-                            incredible adventure to prove that injury and life
-                            changing events do not need to be a barrier to
-                            success. Information on sponsor packages which start
-                            from £5,000 can be found below. Please download
-                            sponsor document below for more information and feel
-                            free to contact Rob through the contact form below.
-                            <br />
-                        </p>
-                        <a
-                            class="document-download btn-tertiary"
-                            href="/Atlantic Titan Sponsor Document.pdf"
-                            download
-                            >Download a Sponsorship Document</a
-                        >
-                        <p>
-                            <span class="ai-c"><strong>250 Club</strong></span>
-                            If you would like to help Rob reach the start line
-                            by supporting his race costs for smaller amount, he
-                            has now started a “250 club”. In exchange for £250,
-                            your logo or name (or whatever you want, within
-                            reason) can be placed on the boat! If you would like
-                            to donate, please follow the link to the
-                            crowdfunding page below.
-                            <br />
-                            <br />
-                        </p>
-                        <a
-                            class="document-download btn-tertiary my-0"
-                            href="https://www.gofundme.com/f/atlantic-titan"
-                            target="_blank"
-                            >250 Club</a
-                        >
-                    </div>
-                </div>
-
-                <div id="charity" class="info">
-                    <h2>The Charities</h2>
-                    <div class="content-v-split">
-                        <p>
-                            Rob is raising money for two extremely worthwhile
-                            causes,
-                            <a
-                                href="https://www.collateralrepairproject.org/"
-                                target="_blank"
-                                class="highlight-link"
-                                >Collateral Repair Project (CRP)</a
-                            >, a refugee support organisation based in Amman,
-                            Jordan. And the
-                            <a
-                                href="https://www.invictusgamesfoundation.org/"
-                                target="_blank"
-                                class="highlight-link"
-                                >Invictus Games Foundation (IGF)</a
-                            >
-                            which supports and empowers service personnel from
-                            around the world who have suffered life changing
-                            injuries, visible or otherwise. Rob has previously
-                            worked for CRP in 2018 and his short stint training
-                            to be an officer in the British Army has given him
-                            an appreciation of the needs of both refugees and
-                            veterans.
-                            <br />
-                            <br />
-                            Both organisations support victims of conflict and
-                            Rob’s campaign aims to draw support for what is
-                            essentially two sides of the same coin. Rob is
-                            hoping to raise £50,000 for these two charities with
-                            all contributions split evenly between them.
-                            <br />
-                            <br />
-                        </p>
-                        <iframe
-                            width="98%"
-                            height="410"
-                            src="https://youtube.com/embed/cUUu6ACFMBU"
-                            frameborder="0"
-                            allowfullscreen
-                        ></iframe>
-                        <p>
-                            <br />
-                            When most people think about the refugee crisis,
-                            they think of boats making dangerous journeys across
-                            the Mediterranean, and families crowded into tents
-                            in European camps. But the reality is that the vast
-                            majority of displaced people never reach Europe.
-                            This is where CRP comes in. Since 2006, CRP have
-                            supported urban refugees in Amman. The organisation
-                            tries to meet the immediate needs of its
-                            beneficiaries by distributing food vouchers and
-                            providing medical support. They give out warm
-                            clothes and heaters in the winter, and
-                            back-to-school supplies in September. At their
-                            community centre in east Amman they offer classes
-                            and activities focusing on education and trauma
-                            relief.
-                            <br />
-                            <br />
-                        </p>
-                        <iframe
-                            width="98%"
-                            height="410"
-                            src="https://youtube.com/embed/PpnYcXJVWNM"
-                            frameborder="0"
-                            allowfullscreen
-                        ></iframe>
-                        <p>
-                            <br />
-                            On a trip to the Warrior Games in the USA in 2013,
-                            HRH The Duke of Sussex saw first-hand how the power
-                            of sport can help physically, psychologically and
-                            socially those suffering from injuries and illness.
-                            He was inspired by his visit and the Invictus Games
-                            was born. The Games have been supporting wounded
-                            service personnel since 2014, when the inaugural
-                            Invictus Games were held in London. The organisation
-                            harness’ the power of sport to inspire recovery,
-                            support rehabilitation and generate a wider
-                            understanding and respect for those who serve their
-                            country.
-                            <br />
-                            <br />
-                            If you would like to help Rob meet his fundraising
-                            goal, please follow the link below.
-                            <br />
-                            <br />
-                        </p>
-                        <a
-                            class="document-download btn-tertiary"
-                            href="https://www.gofundme.com/f/atlantic-titan"
-                            target="_blank"
-                            >Donate</a
-                        >
-                    </div>
-                </div>
+              <p>
+                This was certainly a shock to his system and while he had always
+                wanted to take part in the Talisker Whisky Atlantic Challenge,
+                this unfortunate turn of events meant he is now more determined
+                than ever to not only complete the crossing but win the solo
+                category. With the goal of proving to himself and others that
+                injuries and life changing events need not be a barrier for
+                achieving extraordinary things.
+              </p>
             </div>
-        </section>
+          </div>
+        </div>
 
-        <!-- Footer -->
-        <footer id="main-footer" class="py-2">
-            <div class="container footer-container">
-                <div class="footer-form">
-                    <h3>Contact Me</h3>
-                    <form name="contact" method="POST" data-netlify="true">
-                        <input
-                            type="email"
-                            name="email"
-                            placeholder="Enter Email..."
-                        />
-                        <textarea
-                            type="textarea"
-                            name="message"
-                            placeholder="Your Message..."
-                        ></textarea>
-                        <input
-                            type="submit"
-                            value="Send"
-                            class="btn btn-primary"
-                        />
-                    </form>
-                </div>
-                <div class="social-media">
-                    <div class="social-icons">
-                        <a
-                            href="https://www.facebook.com/Atlantictitan/"
-                            target="_blank"
-                            ><i class="fab fa-facebook fa-2x"></i
-                        ></a>
-                        <a
-                            href="https://www.instagram.com/robhamilton_adventures/"
-                            target="_blank"
-                            ><i class="fab fa-instagram fa-2x"></i
-                        ></a>
-                        <a
-                            href="https://www.youtube.com/channel/UCy4MBau9XHYan_wznpLS_Ow"
-                            target="_blank"
-                            ><i class="fab fa-youtube fa-2x"></i
-                        ></a>
-                    </div>
-                </div>
-                <div class="logo">
-                    <a
-                        href="https://www.taliskerwhiskyatlanticchallenge.com"
-                        target="_blank"
-                    >
-                        <img src="/img/race_logo.jpg" alt="Atlantic Row Logo"/>
-                        <img
-                            src="/img/race_logo_2.png"
-                            alt="Atlantic Row Logo"
-                            class="logo-2"
-                    /></a>
-                </div>
-                <div class="copy">
-                    <p>
-                        Copyright 2019 &copy; All rights reserved.
-                    </p>
-                </div>
+        <div id="challenge" class="info challenge">
+          <h2>The Challenge</h2>
+          <div class="content-v-split">
+            <p>
+              You would be hard pressed to find a better way of achieving this
+              than to row across the Atlantic. The Talisker Whisky Atlantic
+              Challenge is often touted as the world’s toughest race and the
+              premier event in ocean rowing, and with good reason. The 3000-mile
+              race starts every December in La Gomera, the Canary Islands and
+              finishes up to three months later in Antigua. Rob will be totally
+              unsupported, carrying everything he needs for the crossing on his
+              boat and won’t leave his boat until he reaches Antigua.
+              <br />
+              <br />
+            </p>
+            <iframe
+              width="98%"
+              height="410"
+              src="https://youtube.com/embed/uLQS6q6u4j4"
+              frameborder="0"
+              allowfullscreen
+            ></iframe>
+            <p>
+              <br />
+              Rowing across the Atlantic presents many challenges, including -
+              <br />
+              <br />
+              <strong>Sleep Deprivation</strong> – Rowing for up to 18 hours a
+              day is exhausting, giving very little time to sleep, coupled with
+              the fact that sleeping in an ocean rowing boat is often quite
+              bumpy. Ocean rowers frequently report hallucinations.
+              <br />
+              <br />
+              <strong>Salt Sores</strong> – Salt from the ocean gets everywhere,
+              all over your skin and clothes. With nowhere to wash the salt can
+              often lead to painful sores which have the potential to lead to
+              infection.
+              <br />
+              <br />
+              <strong>Dehydration</strong> – With temperatures in excess of 30
+              degrees, no shade on the boat and rowing all day, every day,
+              dehydration is a real risk. The onboard watermaker is therefore a
+              vital piece of equipment.
+              <br />
+              <br />
+              <strong>Waves</strong> – Waves in the Atlantic can be big, really
+              big, up to 30ft (9 metres) high, in fact. This may be ok in a
+              larger ocean-going vessel but in a small 24ft (7.3 metres) rowing
+              boat it can lead to capsizes.
+              <br />
+              <br />
+              <strong>Food</strong> – Spending all this time rowing burns a huge
+              number of calories, approximately 8000 a day. However, rowers
+              typically only manage to eat 6000 calories a day. Therefore, Rob
+              will likely lose between 10kg and 15kg on the crossing. This may
+              be exacerbated by bouts of sea sickness which drain energy and
+              motivation making it all that much harder.
+              <br />
+              <br />
+              Overall, the mental challenge of rowing across an ocean outweighs
+              the physical. There are times during the race where the water will
+              be 5km deep and you will be closer to someone in space than on
+              land. Indeed, more people have been into space than have rowed
+              across an ocean, let alone completed a solo crossing.
+            </p>
+            <div class="map">
+              <img src="/img/race_distance.jpg" alt="Race Distance" />
             </div>
-        </footer>
+            <p>
+              Just making it to the start line is an impressive feat, with
+              £110,000 required to cover race costs including the build and
+              purchase of the boat from Rannoch Adventure, all the navigation,
+              emergency and communications equipment as well as shipping costs,
+              the race entrance fee and mandatory courses. Rob is actively
+              searching for sponsors to join him on this incredible adventure to
+              prove that injury and life changing events do not need to be a
+              barrier to success. Information on sponsor packages which start
+              from £5,000 can be found below. Please download sponsor document
+              below for more information and feel free to contact Rob through
+              the contact form below.
+              <br />
+            </p>
+            <a
+              class="document-download btn-tertiary"
+              href="/Atlantic Titan Sponsor Document.pdf"
+              download
+              >Download a Sponsorship Document</a
+            >
+            <p>
+              <span class="ai-c"><strong>250 Club</strong></span>
+              If you would like to help Rob reach the start line by supporting
+              his race costs for smaller amount, he has now started a “250
+              club”. In exchange for £250, your logo or name (or whatever you
+              want, within reason) can be placed on the boat! If you would like
+              to donate, please follow the link to the crowdfunding page below.
+              <br />
+              <br />
+            </p>
+            <a
+              class="document-download btn-tertiary my-0"
+              href="https://www.gofundme.com/f/atlantic-titan"
+              target="_blank"
+              >250 Club</a
+            >
+          </div>
+        </div>
 
-        <script
-            src="https://code.jquery.com/jquery-3.3.1.min.js"
-            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-            crossorigin="anonymous"
-        ></script>
+        <div id="charity" class="info">
+          <h2>The Charities</h2>
+          <div class="content-v-split">
+            <p>
+              Rob is raising money for two extremely worthwhile causes,
+              <a
+                href="https://www.collateralrepairproject.org/"
+                target="_blank"
+                class="highlight-link"
+                >Collateral Repair Project (CRP)</a
+              >, a refugee support organisation based in Amman, Jordan. And the
+              <a
+                href="https://www.invictusgamesfoundation.org/"
+                target="_blank"
+                class="highlight-link"
+                >Invictus Games Foundation (IGF)</a
+              >
+              which supports and empowers service personnel from around the
+              world who have suffered life changing injuries, visible or
+              otherwise. Rob has previously worked for CRP in 2018 and his short
+              stint training to be an officer in the British Army has given him
+              an appreciation of the needs of both refugees and veterans.
+              <br />
+              <br />
+              Both organisations support victims of conflict and Rob’s campaign
+              aims to draw support for what is essentially two sides of the same
+              coin. Rob is hoping to raise £50,000 for these two charities with
+              all contributions split evenly between them.
+              <br />
+              <br />
+            </p>
+            <iframe
+              width="98%"
+              height="410"
+              src="https://youtube.com/embed/cUUu6ACFMBU"
+              frameborder="0"
+              allowfullscreen
+            ></iframe>
+            <p>
+              <br />
+              When most people think about the refugee crisis, they think of
+              boats making dangerous journeys across the Mediterranean, and
+              families crowded into tents in European camps. But the reality is
+              that the vast majority of displaced people never reach Europe.
+              This is where CRP comes in. Since 2006, CRP have supported urban
+              refugees in Amman. The organisation tries to meet the immediate
+              needs of its beneficiaries by distributing food vouchers and
+              providing medical support. They give out warm clothes and heaters
+              in the winter, and back-to-school supplies in September. At their
+              community centre in east Amman they offer classes and activities
+              focusing on education and trauma relief.
+              <br />
+              <br />
+            </p>
+            <iframe
+              width="98%"
+              height="410"
+              src="https://youtube.com/embed/PpnYcXJVWNM"
+              frameborder="0"
+              allowfullscreen
+            ></iframe>
+            <p>
+              <br />
+              On a trip to the Warrior Games in the USA in 2013, HRH The Duke of
+              Sussex saw first-hand how the power of sport can help physically,
+              psychologically and socially those suffering from injuries and
+              illness. He was inspired by his visit and the Invictus Games was
+              born. The Games have been supporting wounded service personnel
+              since 2014, when the inaugural Invictus Games were held in London.
+              The organisation harness’ the power of sport to inspire recovery,
+              support rehabilitation and generate a wider understanding and
+              respect for those who serve their country.
+              <br />
+              <br />
+              If you would like to help Rob meet his fundraising goal, please
+              follow the link below.
+              <br />
+              <br />
+            </p>
+            <a
+              class="document-download btn-tertiary"
+              href="https://www.justgiving.com/crowdfunding/atlantic-titan"
+              target="_blank"
+              >Donate</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
 
-        <script
-            type="text/javascript"
-            src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
-        ></script>
+    <!-- Footer -->
+    <footer id="main-footer" class="py-2">
+      <div class="container footer-container">
+        <div class="footer-form">
+          <h3>Contact Me</h3>
+          <form name="contact" method="POST" data-netlify="true">
+            <input type="email" name="email" placeholder="Enter Email..." />
+            <textarea
+              type="textarea"
+              name="message"
+              placeholder="Your Message..."
+            ></textarea>
+            <input type="submit" value="Send" class="btn btn-primary" />
+          </form>
+        </div>
+        <div class="social-media">
+          <div class="social-icons">
+            <a href="https://www.facebook.com/Atlantictitan/" target="_blank"
+              ><i class="fab fa-facebook fa-2x"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/robhamilton_adventures/"
+              target="_blank"
+              ><i class="fab fa-instagram fa-2x"></i
+            ></a>
+            <a
+              href="https://www.youtube.com/channel/UCy4MBau9XHYan_wznpLS_Ow"
+              target="_blank"
+              ><i class="fab fa-youtube fa-2x"></i
+            ></a>
+          </div>
+        </div>
+        <div class="logo">
+          <a
+            href="https://www.taliskerwhiskyatlanticchallenge.com"
+            target="_blank"
+          >
+            <img src="/img/race_logo.jpg" alt="Atlantic Row Logo"/>
+            <img
+              src="/img/race_logo_2.png"
+              alt="Atlantic Row Logo"
+              class="logo-2"
+          /></a>
+        </div>
+        <div class="copy">
+          <p>
+            Copyright 2019 &copy; All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
 
-        <script src="js/main.js"></script>
-    </body>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+
+    <script src="js/main.js"></script>
+  </body>
 </html>
